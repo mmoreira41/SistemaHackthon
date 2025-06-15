@@ -1,18 +1,25 @@
 package model;
+import controller.Banca;
 
 public class Projeto {
- 
-    private Profissional Orientador;
-    private equipe Equipe;
-    private int notaFinal;
+    private String nome;
+    private Banca banca;
 
-    // private String nome;
-    // private String descricao;
-
-    public Projeto(Profissional Orientador, equipe Equipe, int NotaFinal){
-        this.Orientador = Orientador;
-        this.Equipe = Equipe;
-        this.notaFinal = notaFinal;
+    public Projeto(String nome) {
+        this.nome = nome;
     }
 
+    public String getNome() {
+        return this.nome;  // Método getter para o nome
+    }
+
+    public void setBanca(Banca banca) {
+        this.banca = banca;
+    }
+
+    public Banca getBanca() {
+        return this.banca;
+    }
 }
+
+
