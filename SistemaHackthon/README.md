@@ -6,7 +6,8 @@ Este projeto foi desenvolvido para gerenciar e avaliar projetos de estudantes, i
 
 
 ## UML
-![UML-SISTEMA](https://github.com/user-attachments/assets/7479f74d-2f02-4ec5-b180-a6be02b9293b)
+![NovoDiagramaUML](https://github.com/user-attachments/assets/fcf45f90-b534-4e03-80b2-be5c3bb0859e)
+
 
 
 
