@@ -1,17 +1,9 @@
 package model;
 
-public class Jurado {
-    private String nome;
+public class Jurado extends Profissional {
 
-    public Jurado(String nome) {
-        this.nome = nome;
+    public Jurado(String nome, Instituicao instituicao, String area) {
+        super(nome, instituicao, area);
     }
 
-    public String getNome() {
-        return this.nome;
-    }
-
-    public double avaliarProjeto() {
-        return Math.random() * 10; 
-    }
 }

@@ -1,4 +1,5 @@
 package model;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,6 +13,11 @@ public class Equipe {
         this.membros = new ArrayList<>();
     }
 
+    // MÉTODO QUE FALTAVA - ADICIONE ESTE BLOCO
+    public String getNome() {
+        return this.nome;
+    }
+
     public void adicionarMembro(Estudante aluno) {
         this.membros.add(aluno);
     }
@@ -22,5 +28,9 @@ public class Equipe {
 
     public Projeto getProjeto() {
         return this.projeto;
+    }
+
+    public List<Estudante> getMembros() {
+        return this.membros;
     }
 }

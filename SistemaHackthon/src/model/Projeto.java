@@ -1,25 +1,38 @@
 package model;
-import controller.Banca;
 
 public class Projeto {
     private String nome;
-    private Banca banca;
+    private Equipe equipe;
+    private Profissional orientador;
+    private double notaFinal;
 
-    public Projeto(String nome) {
+    public Projeto(String nome, Profissional orientador) {
         this.nome = nome;
+        this.orientador = orientador;
+        this.notaFinal = 0;
     }
 
     public String getNome() {
-        return this.nome;  // Método getter para o nome
+        return nome;
     }
 
-    public void setBanca(Banca banca) {
-        this.banca = banca;
+    public void setEquipe(Equipe equipe) {
+        this.equipe = equipe;
     }
 
-    public Banca getBanca() {
-        return this.banca;
+    public Equipe getEquipe() {
+        return equipe;
+    }
+
+    public Profissional getOrientador() {
+        return orientador;
+    }
+
+    public double getNotaFinal() {
+        return notaFinal;
+    }
+
+    public void setNotaFinal(double notaFinal) {
+        this.notaFinal = notaFinal;
     }
 }
-
-

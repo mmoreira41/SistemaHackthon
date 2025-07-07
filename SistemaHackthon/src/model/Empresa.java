@@ -1,13 +1,8 @@
 package model;
 
-public class Empresa {
-    private String nome;
+public class Empresa extends Instituicao {
 
     public Empresa(String nome) {
-        this.nome = nome;
-    }
-
-    public String getNome() {
-        return nome;
+        super(nome);
     }
 }

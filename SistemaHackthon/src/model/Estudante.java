@@ -1,18 +1,13 @@
 package model;
 
-public class Estudante {
-    private String nome;
-    private String matricula; 
+public class Estudante extends Pessoa {
+    private String matricula;
     private String curso;
 
-    public Estudante(String nome, String matricula, String curso) {
-        this.nome = nome;
+    public Estudante(String nome, Instituicao instituicao, String matricula, String curso) {
+        super(nome, instituicao);
         this.matricula = matricula;
         this.curso = curso;
-    }
-
-    public String getNome() {
-        return this.nome;
     }
 
     public String getMatricula() {
