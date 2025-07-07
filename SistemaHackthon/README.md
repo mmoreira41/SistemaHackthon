@@ -9,8 +9,9 @@ A arquitetura segue os princípios de Orientação a Objetos, utilizando heranç
 ## UML
 
 O diagrama abaixo representa a arquitetura final do sistema, com todas as classes, atributos, métodos e relacionamentos implementados.
+![NovoDiagramaUML](https://github.com/user-attachments/assets/4b0f8588-dd05-4783-af3a-98a5d2de63aa)
 
-![Diagrama UML Final](https://github.com/user-attachments/assets/fcf45e9a-7a4c-4235-862d-9eb58319f626)
+
 
 ## Estrutura do Projeto
 
